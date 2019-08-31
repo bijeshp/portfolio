@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?phg0ng");
+  src: url("fonts/icomoon.eot?phg0ng#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?phg0ng") format("truetype"), url("fonts/icomoon.woff?phg0ng") format("woff"),
+    url("fonts/icomoon.svg?phg0ng#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kerala-govt:before {
+  content: "\e91a";
+}
+.icon-anna-university:before {
+  content: "\e91b";
+}
+.icon-cordys:before {
+  content: "\e91c";
+}
+.icon-kerala-university:before {
+  content: "\e91d";
+}
+.icon-pramati:before {
+  content: "\e91e";
+}
+.icon-brand10:before {
+  content: "\e925";
+  color: #fe7a16;
+}
+.icon-linkedin:before {
+  content: "\e921";
+  color: #0077b5;
+}
+.icon-instagram:before {
+  content: "\e922";
+  color: #e4405f;
+}
+.icon-facebook:before {
+  content: "\e923";
+  color: #3b5998;
+}
+.icon-email:before {
+  content: "\e91f";
+  color: #d14836;
+}
+.icon-css3:before {
+  content: "\e90e";
+  color: #1572b6;
+}
+.icon-skype:before {
+  content: "\e902";
+  color: #00aff0;
+}
+.icon-twitter:before {
+  content: "\e903";
+  color: #1da1f2;
+}
+.icon-googleplus:before {
+  content: "\e904";
+  color: #dc4e41;
+}
+.icon-google:before {
+  content: "\e905";
+  color: #4285f4;
+}
+.icon-mail:before {
+  content: "\e920";
+}
+.icon-bulb:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e901";
+}
+.icon-monitor:before {
+  content: "\e912";
+}
+.icon-checkmark:before {
+  content: "\e913";
+}
+.icon-pictures:before {
+  content: "\e914";
+}
+.icon-checkmark2:before {
+  content: "\e915";
+}
+.icon-phone2:before {
+  content: "\e916";
+}
+.icon-graduate:before {
+  content: "\e917";
+}
+.icon-brush:before {
+  content: "\e910";
+}
+.icon-library:before {
+  content: "\e918";
+}
+.icon-paperplane:before {
+  content: "\e911";
+}
+.icon-tools:before {
+  content: "\e033";
+}
+.icon-react:before {
+  content: "\e046";
+}
+.icon-map-pin:before {
+  content: "\e047";
+}
+.icon-speedometer:before {
+  content: "\e051";
+}
+.icon-office:before {
+  content: "\e919";
+}
+.icon-code:before {
+  content: "\e90f";
+}
+.icon-gl:before {
+  content: "\e90d";
+}
+.icon-sk:before {
+  content: "\e906";
+}
+.icon-users:before {
+  content: "\e907";
+}
+.icon-git:before {
+  content: "\e908";
+}
+.icon-tw:before {
+  content: "\e909";
+}
+.icon-fb:before {
+  content: "\e90a";
+}
+.icon-device-mobile:before {
+  content: "\e90b";
+}
+.icon-desktop:before {
+  content: "\e90c";
+}
+.icon-location:before {
+  content: "\e948";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-insta:before {
+  content: "\ea92";
+}
+.icon-ln:before {
+  content: "\eaca";
+}

@@ -1,0 +1,272 @@
+@import "../styles/site.scss";
+
+.hero {
+  background-image: url("/images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  .background {
+    position: absolute;
+    display: block;
+    padding-top: 30px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .foreground {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(96, 134, 190);
+    background: linear-gradient(
+      90deg,
+      rgba(96, 134, 190, 0.6138830532212884) 4%,
+      rgba(9, 60, 121, 0.5130427170868348) 17%,
+      rgba(9, 61, 161, 0.804359243697479) 45%
+    );
+    justify-content: center;
+    color: $color-white;
+
+    .intro {
+      margin: 80px;
+      blockquote {
+        margin-top: 20px;
+      }
+    }
+    .banner_social_link {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        margin-right: 10px;
+        color: $color-white;
+        border: 1px solid $color-white;
+        height: 32px;
+        width: 32px;
+        margin-bottom: 15px;
+        min-height: 32px;
+        min-width: 32px;
+        border-radius: 50%;
+        text-align: center;
+        a {
+          font-size: 16px;
+          line-height: 32px;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  .basic-info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    .info-item {
+      min-width: 280px;
+      .icon {
+        color: $color-text-light;
+        margin-right: 5px;
+      }
+      .label {
+        color: $color-text-light;
+        margin-right: 10px;
+      }
+    }
+  }
+  .profile-pic {
+    text-align: right;
+    img {
+      max-width: 250px;
+      width: auto;
+    }
+  }
+  .basic-skills {
+    margin-top: 30px;
+    .skill-indicator {
+      display: flex;
+      align-items: center;
+      min-width: 300px;
+      .CircularProgressbar-text {
+        fill: $color-text-default; //$color-primary-blue;
+        font-weight: bold;
+      }
+      .level {
+        height: 62px;
+        width: 62px;
+        min-height: 62px;
+        min-width: 62px;
+        margin-right: 10px;
+      }
+      .label {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        .title {
+          color: $color-text-light;
+          font-weight: bold;
+        }
+        .exp {
+        }
+      }
+    }
+  }
+}
+
+.experience {
+  position: relative;
+  background-color: #dddddd4d;
+  .contributions {
+    li {
+      .icon {
+        margin-right: 8px;
+      }
+      margin-bottom: 15px;
+      padding-left: 10px;
+      position: relative;
+    }
+  }
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: radial-gradient(#e7e5e5fa 15%, transparent 16%) 0 0,
+    radial-gradient(rgba(238, 237, 237, 0.671) 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(241, 239, 239, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(241, 239, 239, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #ffff;
+  background-size: 16px 16px;
+  .content {
+    position: relative;
+    .icon {
+      height: 110px;
+      line-height: 110px;
+      text-align: center;
+      width: 110px;
+      font-size: 80px;
+      position: absolute;
+      top: 0px;
+      background-color: $color-white;
+      border: 1px solid;
+      border-radius: 50%;
+      &.icon-kerala-govt {
+        font-size: 60px;
+      }
+      z-index: 9;
+    }
+    .title {
+      height: 110px;
+      z-index: -1;
+      border-left: 0px;
+      border-radius: 0px 3px 3px 0px;
+      flex-grow: 1;
+      margin-left: 55px;
+      padding-left: 70px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      color: $color-white;
+      opacity: 0.8;
+      .degree {
+        font-size: 22px;
+        line-height: 24px;
+        padding-bottom: 10px;
+      }
+      .school {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.skills {
+  padding: 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: auto;
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+      position: relative;
+      min-width: 150px;
+      min-height: 150px;
+      flex-grow: 1;
+      flex-basis: 150px;
+
+      .content {
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.7245273109243697) 54%,
+          rgba(255, 255, 255, 0.8225665266106442) 90% rgba(255, 255, 255, 1) 0%
+        );
+        height: 100%;
+        width: 100%;
+
+        vertical-align: middle;
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        transition-property: color;
+        transition-duration: 0.5s;
+        display: flex;
+        align-items: center;
+        .label {
+          text-align: center;
+          font-weight: bold;
+          width: 100%;
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: $color-secondary-green;
+          transform: scaleY(0);
+          transform-origin: 50% 100%;
+          transition-property: transform;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-out;
+        }
+        &:hover {
+          color: white;
+          &:before {
+            -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+            -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+            transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+          }
+        }
+      }
+      .mask {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero .foreground .intro {
+    margin: 30px;
+  }
+}
