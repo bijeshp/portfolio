@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Particles from "particlesjs"
+import HeroBackground from '../images/hero-bg.jpg'
 import { About } from "../data"
 
 class Hero extends React.Component {
@@ -126,7 +127,7 @@ class Hero extends React.Component {
   render() {
     const { title, quote, social } = About
     return (
-      <section className="panel hero" id="home">
+      <section className="panel hero" id="home" style={{backgroundImage:`url(${HeroBackground})`}}>
         <canvas className="background"></canvas>
         <div className="foreground">
           <div className="intro">

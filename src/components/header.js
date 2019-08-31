@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from '../images/bijesh_icon.png'
 
 class Header extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class Header extends React.Component {
     return (
       <header className={`header ${isFloatingHeader ? "floating" : ""}`}>
         <div className="logo">
-          <img src="../icons/bijesh_icon.png" />
+          <img src={Logo} />
         </div>
         <nav className="nav-links">
           <Link to="#home"> Home</Link>
