@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Logo from '../images/bijesh_icon.png'
+import Logo from "../images/bijesh_icon.png"
 
 class Header extends React.Component {
   constructor(props) {
@@ -28,8 +28,13 @@ class Header extends React.Component {
 
   render() {
     const { isFloatingHeader } = this.state
+    const { coloredHeader } = this.props
     return (
-      <header className={`header ${isFloatingHeader ? "floating" : ""}`}>
+      <header
+        className={`header ${
+          isFloatingHeader || coloredHeader ? "floating" : ""
+        }`}
+      >
         <div className="logo">
           <img src={Logo} />
         </div>
@@ -39,6 +44,7 @@ class Header extends React.Component {
           <Link to="#work"> Experience</Link>
           <Link to="#skills">Skills</Link>
           <Link to="#education"> Education</Link>
+          <Link to="/blogs"> Blogs</Link>
         </nav>
       </header>
     )

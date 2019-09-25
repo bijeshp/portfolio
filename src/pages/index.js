@@ -10,7 +10,7 @@ import Experience from "./experience"
 import Education from "./education"
 import Skills from "./skills"
 
-import "./style.scss"
+import "./home.scss"
 
 const IndexPage = () => (
   <Layout>
