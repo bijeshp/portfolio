@@ -366,7 +366,7 @@ export const Blogs = [
     date: "20 Sep 2019",
     type: "code",
     description:
-      "This is a boilerplate application for building RESTful APIs Micro-service in Node.js using express and mongo DB mongoose in ES6 with code coverage and other developer productivity tools. This is pre-configured with the popular tools and frameworks to avoid configurations and follows  the best practices for Node Js based backend development This template is built with Create React App for authoring React/Redux applications. It is powered by the most popular front end & developer productivity tools for faster development without generating cumbersome boilerplate code.",
+      "This is a boilerplate application for building RESTful APIs Micro-service in Node.js using express and mongo DB mongoose in ES6 with code coverage and other developer productivity tools. This is pre-configured with the popular tools and frameworks to avoid configurations and follows  the best practices for Node Js based backend development.",
     url: "https://github.com/bijeshp/starter-kit-create-react-app",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8OrqAnj8GnLeKtw-5hlAvjWcCGAOmZmwNKPWAjOtJKDV78ES",
