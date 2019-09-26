@@ -39,12 +39,30 @@ class Header extends React.Component {
           <img src={Logo} />
         </div>
         <nav className="nav-links">
-          <Link to="#home"> Home</Link>
-          <Link to="#about"> About</Link>
-          <Link to="#work"> Experience</Link>
-          <Link to="#skills">Skills</Link>
-          <Link to="#education"> Education</Link>
-          <Link to="/blogs"> Blogs</Link>
+          <Link to="#home" className="menu-item">
+            <i className="icon icon-home" />
+            <span className="text">Home</span>
+          </Link>
+          <Link to="#about" className="menu-item">
+            <i className="icon  icon-official" />
+            <span className="text">About</span>
+          </Link>
+          <Link to="#work" className="menu-item">
+            <i className="icon icon-briefcase" />
+            <span className="text">Experience</span>
+          </Link>
+          <Link to="#skills">
+            <i className="icon icon-wrench" />
+            <span className="text">Skills</span>
+          </Link>
+          <Link to="#education" className="menu-item">
+            <i className="icon icon-graduate" />
+            <span className="text">Education</span>
+          </Link>
+          <Link to="/blogs" className="menu-item">
+            <i className="icon icon-book" />
+            <span className="text">Blogs</span>
+          </Link>
         </nav>
       </header>
     )

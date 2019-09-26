@@ -10,6 +10,7 @@
     "gatsby-plugin-manifest": "^2.2.6",
     "gatsby-plugin-offline": "^2.2.7",
     "gatsby-plugin-react-helmet": "^3.1.4",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sass": "^2.1.12",
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
@@ -21,6 +22,7 @@
     "react-circular-progressbar": "^2.0.2",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-particles-js": "^2.7.0",
     "react-timeline-scribble": "^1.0.14",
     "react-visibility-sensor": "^5.1.1",
     "reflex-grid": "^2.0.4"
@@ -38,7 +40,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "repository": {
     "type": "git",

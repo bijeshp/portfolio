@@ -21,6 +21,17 @@ header {
     transition: background-color 1s ease-in-out;
     background-color: $color-primary-blue;
   }
+  .nav-links{
+    .icon{
+      font-size: 22px;
+      color: $color-background-grey-light;
+      display: none;
+      line-height: 32px;
+    }
+    .text{
+      display: inline-block;
+    }
+  }
 }
 hr {
   width: 100%;
@@ -170,6 +181,22 @@ footer {
   }
   .header {
     padding: 0px 30px;
+    .nav-links{
+      .menu-item{
+        display: inline-block;
+        padding: 0px 8px;
+        line-height: 32px;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+      }
+      .text{
+        display: none;
+      }
+      .icon{
+        display: inline-block;
+      }
+    }
   }
   .timeline {
     &:before {
